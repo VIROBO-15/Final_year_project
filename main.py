@@ -29,7 +29,7 @@ if __name__ == "__main__":
     parser.add_argument('--nThreads', type=int, default=8)
     parser.add_argument('--learning_rate', type=float, default=0.0001)
     parser.add_argument('--max_epoch', type=int, default=100)
-    parser.add_argument('--eval_freq_iter', type=int, default=100)
+    parser.add_argument('--eval_freq_iter', type=int, default=200)
     parser.add_argument('--print_freq_iter', type=int, default=50)
     parser.add_argument('--aux_lambda', type=float, default=1.)
     parser.add_argument('--draw_frequency', type=int, default=10000)
