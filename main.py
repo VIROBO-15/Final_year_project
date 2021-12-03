@@ -25,12 +25,12 @@ if __name__ == "__main__":
     parser.add_argument('--pool_method', type=str, default='AdaptiveAvgPool2d',
                         help='AdaptiveMaxPool2d / AdaptiveAvgPool2d / AvgPool2d')
     #parser.add_argument('--root_dir', type=str, default=os.getcwd())
-    parser.add_argument('--batchsize', type=int, default=4)
+    parser.add_argument('--batchsize', type=int, default=8)
     parser.add_argument('--nThreads', type=int, default=8)
     parser.add_argument('--learning_rate', type=float, default=0.0001)
-    parser.add_argument('--max_epoch', type=int, default=70)
-    parser.add_argument('--eval_freq_iter', type=int, default=20)
-    parser.add_argument('--print_freq_iter', type=int, default=20)
+    parser.add_argument('--max_epoch', type=int, default=100)
+    parser.add_argument('--eval_freq_iter', type=int, default=100)
+    parser.add_argument('--print_freq_iter', type=int, default=50)
     parser.add_argument('--aux_lambda', type=float, default=1.)
     parser.add_argument('--draw_frequency', type=int, default=10000)
     parser.add_argument('--saved_models', type=str,
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
             if (step_count + 0) % hp.print_freq_iter == 0:
                 print('Epoch: {}, Iter: {}, Steps: {}, Loss:{}'.format(i_epoch, i_batch, step_count, loss))
-            if (step_count + 1) % hp.eval_freq_iter == 0:
+            if (step_count + 0) % hp.eval_freq_iter == 0:
                 with torch.no_grad():
                     model.test(dataloader_Test, step_count)
                     torch.save(model.state_dict(), os.path.join(hp.saved_models, '{}_model_{}_iter.pth'.format(hp.dataset_name, step_count)))

@@ -52,26 +52,24 @@ class Model(nn.Module):
         pathvrst = self.append_dir("val_output")
         self.optimizer.zero_grad()
         self.eval()
-        img = []
+        img_stack = []
         for i, data in enumerate(dataloader_Test):
-            img, img_gt, WWs, HHs, names = data
+            img, img_gt= data
             img = img.to(device)
             with torch.no_grad():
                 msk_big = self.net(img)
-            save_image(msk_big, f"{pathvrst}/{i}+{str(epoch)+'epochs'}.png")
-            save_image(img_gt, f"{pathvrst}/{str(i) + 'gt'}+{str(epoch)+'epochs'}.png")
-            save_image(img, f"{pathvrst}/{str(i) + 'org'}+{str(epoch)+'epochs'}.png")
-            
-            # msk_big = msk_big.squeeze(1)
-            # msk_big = msk_big.cpu().numpy()
-            # for b, _msk in enumerate(msk_big):
-            #     name = names[b]
-            #     WW = WWs[b]
-            #     HH = HHs[b]
-            #     _msk = Image.fromarray((_msk*255).astype(np.uint8))
-            #     _msk = _msk.resize((WW, HH))
-            #     _msk.save(f"{pathvrst}/{name}.png")
+            img_stack.append(img[0])
+            img_stack.append(img_gt[0])
+            img_stack.append(msk_big[0])
 
+            img_stack = torch.stack(img_stack, dim=0)
+            save_image(img_stack, f"{pathvrst}/{i}+{str(epoch)+'epochs'}.png")
+
+            img_stack = []
+
+            # save_image(img_gt, f"{pathvrst}/{str(i) + 'gt'}+{str(epoch)+'epochs'}.png")
+            # save_image(img, f"{pathvrst}/{str(i) + 'org'}+{str(epoch)+'epochs'}.png")
+            
         
         
         

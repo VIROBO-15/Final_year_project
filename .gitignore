@@ -1,3 +1,5 @@
 BUSI/
 *.pyc
 *.jpg
+*.png
+*.pth

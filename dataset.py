@@ -21,8 +21,8 @@ class saliency_dataset(Dataset):
 
         self.img_filenames = [os.path.join(img_dir, name.split(' ')[0] + '/' + name + '.' + img_format) for name in names1]
         self.gt_filenames = [os.path.join(gt_dir, name.split(' ')[0] + '/' + name + '.' + gt_format) for name in names2]
-        transform_img =[transforms.ToTensor(),transforms.Normalize((0.5, 0.5, 0.5),(0.5, 0.5, 0.5))]
-        transform_gt =[transforms.ToTensor(),transforms.Normalize((0.5),(0.5))]
+        transform_img = [transforms.ToTensor(),transforms.Normalize((0.5, 0.5, 0.5),(0.5, 0.5, 0.5))]
+        transform_gt = [transforms.ToTensor(),transforms.Normalize((0.5, 0.5, 0.5),(0.5, 0.5, 0.5))]
         self.transform_img = transforms.Compose(transform_img)
         self.transform_gt = transforms.Compose(transform_gt)
 
@@ -49,7 +49,7 @@ class saliency_dataset(Dataset):
 def get_dataloader_(opt):
     images_path = os.path.join(os.path.join(opt.base_dir, opt.dataset_name))
     s_dataset = saliency_dataset(images_path, images_path)
-    train_size = int(0.98 * len(s_dataset))
+    train_size = int(0.8 * len(s_dataset))
     test_size = len(s_dataset) - train_size
     train_dataset, test_dataset = torch.utils.data.random_split(s_dataset, [train_size, test_size])
 
