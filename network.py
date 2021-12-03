@@ -42,9 +42,9 @@ class UNetUp(nn.Module):
         x = torch.cat((x, skip_input), 1)
 
         return x
-class Saliceny_network(nn.Module):
+class network(nn.Module):
     def __init__(self, in_channels=3, out_channels=3):
-        super(Saliceny_network, self).__init__()
+        super(network, self).__init__()
 
         self.down1 = UNetDown(in_channels, 64, normalize=False)
         self.down2 = UNetDown(64, 128)

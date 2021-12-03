@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Saliency')
 
-    parser.add_argument('--dataset_name', type=str, default='sketchy')
+    parser.add_argument('--dataset_name', type=str, default='BUSI')
     parser.add_argument('--base_dir', type=str, default=os.getcwd())
     parser.add_argument('--backbone_name', type=str,
                         default='VGG', help='VGG / InceptionV3/ Resnet50')
@@ -40,22 +40,16 @@ if __name__ == "__main__":
 
 
     hp = parser.parse_args()
-    dataloader_Train_sal, dataloader_Test_sal = get_dataloader_(hp)
+    dataloader_Train, dataloader_Test = get_dataloader_(hp)
     print(hp)
     print(device)
-    # if hp.debug == False and not torch.cuda.is_available():
-    #     sys.exit("GPU NOT DETECTED, RE RUN THIS CODE")
-
-    os.makedirs(hp.saved_models, exist_ok=True)
-
-    # model.load_state_dict(torch.load('VGG_ShoeV2_model_best.pth', map_location=device))
-    model = Saliency_Model(hp)
+    model = Model(hp)
     model.to(device)
     step_count, best_accuracy, maxfm, mae = -1, 0, 0, 0
 
     for i_epoch in range(hp.max_epoch):
-        for i_batch, batch_data in enumerate(dataloader_Train_sal):
-            img, img_gt, WWs, HHs, names = batch_data
+        for i_batch, batch_data in enumerate(dataloader_Train):
+            img, img_gt= batch_data
             img, img_gt = img.to(device), img_gt.to(device)
             step_count = step_count + 1
             start = time.time()
@@ -66,7 +60,7 @@ if __name__ == "__main__":
                 print('Epoch: {}, Iter: {}, Steps: {}, Loss:{}'.format(i_epoch, i_batch, step_count, loss))
             if (step_count + 1) % hp.eval_freq_iter == 0:
                 with torch.no_grad():
-                    model.test(dataloader_Test_sal, step_count)
+                    model.test(dataloader_Test, step_count)
                     torch.save(model.state_dict(), os.path.join(hp.saved_models, '{}_model_{}_iter.pth'.format(hp.dataset_name, step_count)))
     #save the model
     

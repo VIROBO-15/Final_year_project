@@ -8,16 +8,17 @@ import torchvision
 from PIL import Image
 import numpy as np
 from torchvision.utils import save_image
+from network import *
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-class Saliency_Model(nn.Module):
+class Model(nn.Module):
     def __init__(self,hp):
-        super(Saliency_Model, self).__init__()
+        super(Model, self).__init__()
         self.hp = hp
-        self.net = Saliceny_network()
+        self.net = network()
 
         self.net.apply(weights_init_normal).to(device)
 
