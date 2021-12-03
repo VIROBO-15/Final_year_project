@@ -1,8 +1,6 @@
 import sys
 import os
 sys.path.append(os.getcwd())
-sys.path.append('/vol/research/ayanCV/CVPR2022/Sketch_Saliency-SketchX/')
-sys.path.append('/home/media/CVPR_2022/Sketch_Saliency-SketchX/')
 
 import argparse
 from model import *
