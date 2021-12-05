@@ -17,7 +17,7 @@ Breast Cancer Detection Using Machine Learning
 
 The data collected at baseline include breast ultrasound images among women in ages between 25 and 75 years old. This data was collected in 2020. The number of patients is 600 female patients. The dataset consists of 780 images with an average image size of 500*500 pixels. The images are in PNG format. The ground truth images are presented with original images. The images are categorized into three classes, which are ***normal,benign and malignant***.
 
-<img src="https://user-images.githubusercontent.com/85472607/144747030-59760b91-2bb6-466b-9725-f592e62e4d53.png" width="300" height="200">              <img src="https://user-images.githubusercontent.com/85472607/144747331-1b706205-a2c3-4431-bdf6-4067949cbfb2.png" width="300" height="200">               <img src="https://user-images.githubusercontent.com/85472607/144759916-97798591-e559-464e-afbe-3faf1cfa9a6f.png" width="300" height="200">
+<img src="https://user-images.githubusercontent.com/85472607/144747030-59760b91-2bb6-466b-9725-f592e62e4d53.png" width="300" height="200">              <img src="https://user-images.githubusercontent.com/85472607/144747331-1b706205-a2c3-4431-bdf6-4067949cbfb2.png" width="300" height="300">               <img src="https://user-images.githubusercontent.com/85472607/144759916-97798591-e559-464e-afbe-3faf1cfa9a6f.png" width="300" height="300">
 
 Breast cancer is the most commonly occurring cancer in women and the second most common cancer overall. There were over 2 million new cases in 2020.
 
@@ -34,9 +34,6 @@ Percentage of world population: 15 Percentage of new breast cancer cases: 8 Perc
 U.S. and Canada
 
 Percentage of world population: 5 Percentage of new breast cancer cases: 15 Percentage of breast cancer deaths: 9
-
-
-
 
 # Diabetic Retinopathy
 
