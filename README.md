@@ -1,7 +1,6 @@
 # Breast Cancer Detection
 Breast Cancer Detection Using Machine Learning
-![breast](https://user-images.githubusercontent.com/85472607/144737247-89895143-5040-4213-9361-9fdbe87665c9.png | width=100)
-img src="https://user-images.githubusercontent.com/85472607/144737247-89895143-5040-4213-9361-9fdbe87665c9.png" width=50% height=50%>
+![breast](https://user-images.githubusercontent.com/85472607/144737247-89895143-5040-4213-9361-9fdbe87665c9.png)
 ## what is Breast Cancer
 Cancer occurs when changes called mutations take place in genes that regulate cell growth. The mutations let the cells divide and multiply in an uncontrolled, chaotic way. The cells keep on proliferating, producing copies that get progressively more abnormal. In most cases, the cell copies eventually end up forming a tumor.
 
