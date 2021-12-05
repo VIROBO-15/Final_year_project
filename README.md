@@ -13,7 +13,7 @@ Breast Cancer Detection Using Machine Learning
 
 **Breast cancer** is a complex disease. There are several subtypes of breast cancer and many options for treatment. While many people may have similar diagnoses or are prescribed similar treatments, no two people’s experiences are exactly the same.
 
-#### Data
+## Data
 
 The data collected at baseline include breast ultrasound images among women in ages between 25 and 75 years old. This data was collected in 2020. The number of patients is 600 female patients. The dataset consists of 780 images with an average image size of 500*500 pixels. The images are in PNG format. The ground truth images are presented with original images. The images are categorized into three classes, which are ***normal,benign and malignant***.
 
