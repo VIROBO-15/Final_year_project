@@ -29,6 +29,6 @@ The most common type of retinopathy is related to diabetes. **Diabetic retinopat
 ## DATASET
 The public database contains 15 images of **healthy patients**, 15 images of **patients with diabetic retinopathy**.
 
-<img src="https://user-images.githubusercontent.com/91716972/144748136-bfcbacff-0961-4e06-b36c-7a174cafe4e7.jpg" width="300" height="200">    <img src="https://user-images.githubusercontent.com/91716972/144736194-0a890e00-6572-465b-baa8-0ea8f808f5d5.JPG" width="300" height="200">
+<img src="https://user-images.githubusercontent.com/91716972/144748136-bfcbacff-0961-4e06-b36c-7a174cafe4e7.jpg" width="300" height="200">    <img scr="https://user-images.githubusercontent.com/91716972/144750242-5090572d-f89d-4f91-ba4c-282903db2ce3.JPG" width="300" height="200">
 
 
