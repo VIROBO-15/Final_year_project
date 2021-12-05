@@ -20,7 +20,7 @@ The data collected at baseline include breast ultrasound images among women in a
 <img src="https://user-images.githubusercontent.com/85472607/144723496-d9b3571f-b7df-4832-b6fc-5f9cbeccc103.png" width="600" height="400">
 
 # Diabetic Retinopathy
-            The most common type of retinopathy is related to diabetes. Diabetic retinopathy can be proliferative (growing) or nonproliferative (not growing), referring to the growth of abnormal blood vessels in the retina. Nonproliferative retinopathy is much more common and may not require treatment. In proliferative retinopathy, abnormal blood vessels start to grow when the existing blood vessels close off. The proliferative type of retinopathy can lead to impaired vision. Regular eye examinations are important to check for progression of retinopathy from nonproliferative to proliferative stages.
+The most common type of retinopathy is related to diabetes. Diabetic retinopathy can be proliferative (growing) or nonproliferative (not growing), referring to the growth of abnormal blood vessels in the retina. Nonproliferative retinopathy is much more common and may not require treatment. In proliferative retinopathy, abnormal blood vessels start to grow when the existing blood vessels close off. The proliferative type of retinopathy can lead to impaired vision. Regular eye examinations are important to check for progression of retinopathy from nonproliferative to proliferative stages.
             The public database contains at the moment 15 images of healthy patients, 15 images of patients with diabetic retinopathy.
 
 ![01_dr 1](https://user-images.githubusercontent.com/91716972/144736194-0a890e00-6572-465b-baa8-0ea8f808f5d5.JPG)
