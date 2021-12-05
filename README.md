@@ -2,7 +2,7 @@
 Breast Cancer Detection Using Machine Learning
 <img src="https://user-images.githubusercontent.com/85472607/144737247-89895143-5040-4213-9361-9fdbe87665c9.png" width="800" height="400">
 
-## what is Breast Cancer
+## What is Breast Cancer
 Cancer occurs when changes called mutations take place in genes that regulate cell growth. The mutations let the cells divide and multiply in an uncontrolled, chaotic way. The cells keep on proliferating, producing copies that get progressively more abnormal. In most cases, the cell copies eventually end up forming a tumor.
 
 **Breast cancer** occurs when a malignant (cancerous) tumor originates in the breast. As breast cancer tumors mature, they may metastasize (spread) to other parts of the body. The primary route of metastasis is the lymphatic system which, ironically enough, is also the body's primary system for producing and transporting white blood cells and other cancer-fighting immune system cells throughout the body. Metastasized cancer cells that aren't destroyed by the lymphatic system's white blood cells move through the lymphatic vessels and settle in remote body locations, forming new tumors and perpetuating the disease process.
