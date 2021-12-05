@@ -37,6 +37,9 @@ U.S. and Canada
 
 Percentage of world population: 5 Percentage of new breast cancer cases: 15 Percentage of breast cancer deaths: 9
 
+## DATASET
+The public database contains 266 images of **normal**, 891 image of **benign**, 421 image of **maligent**
+
 # Diabetic Retinopathy
 
 <img src="https://user-images.githubusercontent.com/91716972/144745259-19e374ba-4a8b-48e1-afd7-e64f425f3000.jpg" width="600" height="400">
