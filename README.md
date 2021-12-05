@@ -18,7 +18,6 @@ The data collected at baseline include breast ultrasound images among women in a
 
 
 <img src="https://user-images.githubusercontent.com/85472607/144747030-59760b91-2bb6-466b-9725-f592e62e4d53.png" width="300" height="200">
-
 <img src="https://user-images.githubusercontent.com/85472607/144723496-d9b3571f-b7df-4832-b6fc-5f9cbeccc103.png" width="300" height="200">
 
 # Diabetic Retinopathy
