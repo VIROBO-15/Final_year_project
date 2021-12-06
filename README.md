@@ -6,9 +6,6 @@ Breast Cancer Detection Using Machine Learning
 ## Breast Cancer
 
 **Breast cancer** occurs when a malignant (cancerous) tumor originates in the breast. As breast cancer tumors mature, they may metastasize (spread) to other parts of the body. The primary route of metastasis is the lymphatic system which, ironically enough, is also the body's primary system for producing and transporting white blood cells and other cancer-fighting immune system cells throughout the body. Metastasized cancer cells that aren't destroyed by the lymphatic system's white blood cells move through the lymphatic vessels and settle in remote body locations, forming new tumors and perpetuating the disease process.
-
-**Breast cancer** is one of the most common causes of death among women worldwide. Early detection helps in reducing the number of early deaths. The data reviews the medical images of breast cancer using ultrasound scan. Breast Ultrasound Dataset is categorized into three classes: normal, benign, and malignant images. Breast ultrasound images can produce great results in classification, detection, and segmentation of breast cancer when combined with machine learning.
-
 **Breast cancer** is a complex disease. There are several subtypes of breast cancer and many options for treatment. While many people may have similar diagnoses or are prescribed similar treatments, no two people’s experiences are exactly the same.
 
 ## Data
