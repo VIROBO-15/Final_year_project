@@ -16,9 +16,12 @@ Breast Cancer Detection Using Machine Learning
 The data collected at baseline include breast ultrasound images among women in ages between 25 and 75 years old. This data was collected in 2020. The number of patients is 600 female patients. The dataset consists of 780 images with an average image size of 500*500 pixels. The images are in PNG format. The ground truth images are presented with original images. The images are categorized into three classes, which are ***normal,benign and malignant***.
 
 <div>
-  <div align="center">NORMAL</div> 
-  <div align="center">BENIGN</div>  
-  <div align="center">MALIGANT</div>
+  <tr >NORMAL</tr> 
+    <tr >NORMAL</tr> 
+  <tr >NORMAL</tr> 
+
+  <!--   <div align="center">BENIGN</div>  
+  <div align="center">MALIGANT</div> -->
 </div>   
 <img src="https://user-images.githubusercontent.com/85472607/144747030-59760b91-2bb6-466b-9725-f592e62e4d53.png" width="250" height="250">
 <img src="https://user-images.githubusercontent.com/85472607/144747331-1b706205-a2c3-4431-bdf6-4067949cbfb2.png" width="250" height="250">               
