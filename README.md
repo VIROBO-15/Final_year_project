@@ -25,7 +25,7 @@ The public database contains 266 images of **normal**, 891 image of **benign**, 
 
 # Diabetic Retinopathy
 
-<img src="https://user-images.githubusercontent.com/85472607/144883184-15b50095-6838-4c24-868d-720c4fe0ca7e.jpg" width="600" height="500">
+<img src="https://user-images.githubusercontent.com/85472607/144883184-15b50095-6838-4c24-868d-720c4fe0ca7e.jpg" width="600" height="400">
 
 The most common type of retinopathy is related to diabetes. **Diabetic retinopathy** can be **proliferative** (growing) or **nonproliferative** (not growing), referring to the growth of abnormal blood vessels in the retina. Nonproliferative retinopathy is much more common and may not require treatment. In proliferative retinopathy, abnormal blood vessels start to grow when the existing blood vessels close off. The proliferative type of retinopathy can lead to impaired vision. Regular eye examinations are important to check for progression of retinopathy from nonproliferative to proliferative stages.
 ## DATASET
