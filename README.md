@@ -17,7 +17,7 @@ The data collected at baseline include breast ultrasound images among women in a
 
 ## Ground truth image
 
-<img src="https://user-images.githubusercontent.com/85472607/144865033-afb3c86a-9a88-484f-ae22-8e8a003ee09c.png" width="250" height="250">                         <img src="https://user-images.githubusercontent.com/85472607/144865182-a9a2a001-4965-4db6-b1b9-ce7b26897810.png" width="250" height="250">                                  <img src="https://user-images.githubusercontent.com/85472607/144865342-79ab4667-53df-4ae9-9860-5bb2cb86d671.png" width="250" height="250">
+<img src="https://user-images.githubusercontent.com/85472607/144878629-500e50c6-cde0-454d-a642-336e1f9a3156.png" width="250" height="250">                         <img src="https://user-images.githubusercontent.com/85472607/144878773-13f39bc6-5866-4bf8-b508-41e0c6796482.png" width="250" height="250">                                  <img src="https://user-images.githubusercontent.com/85472607/144865342-79ab4667-53df-4ae9-9860-5bb2cb86d671.png" width="250" height="250">
 
 Breast cancer is the most commonly occurring cancer in women and the second most common cancer overall. There were over 2 million new cases in 2020.
 ## DATASET
