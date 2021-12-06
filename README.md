@@ -17,7 +17,7 @@ The data collected at baseline include breast ultrasound images among women in a
 
 Breast cancer is the most commonly occurring cancer in women and the second most common cancer overall. There were over 2 million new cases in 2020.
 
-Prevalence
+## Ground truth image
 
 ## DATASET
 The public database contains 266 images of **normal**, 891 image of **benign**, 421 image of **maligent**
