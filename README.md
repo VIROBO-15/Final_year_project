@@ -19,7 +19,7 @@ The data collected at baseline include breast ultrasound images among women in a
 
 NORMAL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BENIGN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MALIGANT
 
-<img src="https://user-images.githubusercontent.com/85472607/144747030-59760b91-2bb6-466b-9725-f592e62e4d53.png" width="200" height="200">              <img src="https://user-images.githubusercontent.com/85472607/144747331-1b706205-a2c3-4431-bdf6-4067949cbfb2.png" width="200" height="200">               <img src="https://user-images.githubusercontent.com/85472607/144759916-97798591-e559-464e-afbe-3faf1cfa9a6f.png" width="200" height="200">
+<img src="https://user-images.githubusercontent.com/85472607/144747030-59760b91-2bb6-466b-9725-f592e62e4d53.png" width="300" height="300">              <img src="https://user-images.githubusercontent.com/85472607/144747331-1b706205-a2c3-4431-bdf6-4067949cbfb2.png" width="300" height="300">               <img src="https://user-images.githubusercontent.com/85472607/144759916-97798591-e559-464e-afbe-3faf1cfa9a6f.png" width="300" height="300">
 
 Breast cancer is the most commonly occurring cancer in women and the second most common cancer overall. There were over 2 million new cases in 2020.
 
