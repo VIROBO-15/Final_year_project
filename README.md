@@ -19,6 +19,9 @@ Breast cancer is the most commonly occurring cancer in women and the second most
 
 ## Ground truth image
 
+<img src="https://user-images.githubusercontent.com/85472607/144865033-afb3c86a-9a88-484f-ae22-8e8a003ee09c.png" width="250" height="250">                         <img src="https://user-images.githubusercontent.com/85472607/144865182-a9a2a001-4965-4db6-b1b9-ce7b26897810.png" width="250" height="250">                                  <img src="https://user-images.githubusercontent.com/85472607/144865342-79ab4667-53df-4ae9-9860-5bb2cb86d671.png" width="250" height="250">
+
+
 ## DATASET
 The public database contains 266 images of **normal**, 891 image of **benign**, 421 image of **maligent**
 
