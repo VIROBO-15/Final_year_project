@@ -15,13 +15,11 @@ The data collected at baseline include breast ultrasound images among women in a
  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; NORMAL &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BENIGN &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; MALIGANT   
 <img src="https://user-images.githubusercontent.com/85472607/144863751-ed172bfd-e677-408f-8362-c9160a4520e7.png" width="250" height="250">                         <img src="https://user-images.githubusercontent.com/85472607/144863176-c1bd6468-abe1-4b22-ae29-1ea693578d2c.png" width="250" height="250">                                  <img src="https://user-images.githubusercontent.com/85472607/144863993-60c4f7e1-4941-4388-8ea5-10e94f50ad3c.png" width="250" height="250">
 
-Breast cancer is the most commonly occurring cancer in women and the second most common cancer overall. There were over 2 million new cases in 2020.
-
 ## Ground truth image
 
 <img src="https://user-images.githubusercontent.com/85472607/144865033-afb3c86a-9a88-484f-ae22-8e8a003ee09c.png" width="250" height="250">                         <img src="https://user-images.githubusercontent.com/85472607/144865182-a9a2a001-4965-4db6-b1b9-ce7b26897810.png" width="250" height="250">                                  <img src="https://user-images.githubusercontent.com/85472607/144865342-79ab4667-53df-4ae9-9860-5bb2cb86d671.png" width="250" height="250">
 
-
+Breast cancer is the most commonly occurring cancer in women and the second most common cancer overall. There were over 2 million new cases in 2020.
 ## DATASET
 The public database contains 266 images of **normal**, 891 image of **benign**, 421 image of **maligent**
 
