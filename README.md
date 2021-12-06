@@ -32,3 +32,10 @@ The public database contains 15 images of **healthy patients**, 15 images of **p
 
 <img src="https://user-images.githubusercontent.com/91716972/144748136-bfcbacff-0961-4e06-b36c-7a174cafe4e7.jpg" width="300" height="200">    <img src= "https://user-images.githubusercontent.com/91716972/144750336-6463a273-1743-4951-94d9-c2228c9e1e70.JPG" width="300" height="200">
 
+<img src="https://user-images.githubusercontent.com/91716972/144859625-352bffef-49e1-45ec-b84d-07310d394a1d.jpg" width="300" height="200">     <img src="https://user-images.githubusercontent.com/91716972/144859819-26decd30-a327-42d5-80cc-05c8cbddfa78.jpg" width="300" height="200">
+
+<img src="https://user-images.githubusercontent.com/91716972/144860204-a2dd59d2-9d53-418b-bc0d-9b827ed846c4.jpg" width="300" height="200">     <img src="https://user-images.githubusercontent.com/91716972/144860609-d68345f2-535d-4f8e-b1e2-64b4e9c7ed4b.jpg" width="300" height="200">
+
+
+
+
