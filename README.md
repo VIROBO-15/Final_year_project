@@ -1,7 +1,7 @@
 # Breast Cancer Detection
-Breast Cancer Detection Using Machine Learning
+<!-- Breast Cancer Detection Using Machine Learning
 
-<img src="https://user-images.githubusercontent.com/85472607/144737247-89895143-5040-4213-9361-9fdbe87665c9.png" width="400" height="200">
+<img src="https://user-images.githubusercontent.com/85472607/144737247-89895143-5040-4213-9361-9fdbe87665c9.png" width="400" height="200"> -->
 
 ## Breast Cancer
 
