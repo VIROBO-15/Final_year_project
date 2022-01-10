@@ -12,7 +12,7 @@ from dataset import *
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 #from tensorplot import Visualizer
-# 1 e-1, 1e-2
+### 1 e-1, 1e-2
 
 if __name__ == "__main__":
 
