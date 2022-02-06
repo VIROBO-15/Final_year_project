@@ -24,7 +24,7 @@ if __name__ == "__main__":
                         default='VGG', help='VGG / InceptionV3/ Resnet50')
     parser.add_argument('--pool_method', type=str, default='AdaptiveAvgPool2d',
                         help='AdaptiveMaxPool2d / AdaptiveAvgPool2d / AvgPool2d')
-    #parser.add_argument('--root_dir', type=str, default=os.getcwd())
+    parser.add_argument('--root_dir', type=str, default=os.getcwd())
     parser.add_argument('--batchsize', type=int, default=8)
     parser.add_argument('--nThreads', type=int, default=8)
     parser.add_argument('--learning_rate', type=float, default=0.0001)
