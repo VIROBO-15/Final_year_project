@@ -9,6 +9,7 @@ from PIL import Image
 import numpy as np
 from torchvision.utils import save_image
 from network import *
+from attention import *
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
