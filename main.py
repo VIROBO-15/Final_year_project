@@ -8,6 +8,7 @@ from model import *
 import time
 import torch
 from dataset import *
+from attention import *
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
