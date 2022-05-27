@@ -20,33 +20,25 @@ class UNetDown(nn.Module):
         if dropout:
             layers.append(nn.Dropout(dropout))
         self.model = nn.Sequential(*layers)
-
     def forward(self, x):
         return self.model(x)
-
-
 class UNetUp(nn.Module):
     def __init__(self, in_size, out_size, dropout=0.0):
         super(UNetUp, self).__init__()
         layers = [
             nn.ConvTranspose2d(in_size, out_size, 4, 2, 1, bias=False),
             nn.InstanceNorm2d(out_size),
-            nn.ReLU(inplace=True),
-        ]
+            nn.ReLU(inplace=True),]
         if dropout:
             layers.append(nn.Dropout(dropout))
-
         self.model = nn.Sequential(*layers)
-
     def forward(self, x, skip_input):
         x = self.model(x)
         x = torch.cat((x, skip_input), 1)
-
         return x
 class network(nn.Module):
     def __init__(self, in_channels=3, out_channels=3):
         super(network, self).__init__()
-
         self.down1 = UNetDown(in_channels, 64, normalize=False)
         self.down2 = UNetDown(64, 128)
         self.down3 = UNetDown(128, 256)
@@ -55,7 +47,6 @@ class network(nn.Module):
         self.down6 = UNetDown(512, 512, dropout=0.5)
         self.down7 = UNetDown(512, 512, dropout=0.5)
         self.down8 = UNetDown(512, 512, normalize=False, dropout=0.5)
-
         self.up1 = UNetUp(512, 512, dropout=0.5)
         self.up2 = UNetUp(1024, 512, dropout=0.5)
         self.up3 = UNetUp(1024, 512, dropout=0.5)
@@ -63,14 +54,11 @@ class network(nn.Module):
         self.up5 = UNetUp(1024, 256)
         self.up6 = UNetUp(512, 128)
         self.up7 = UNetUp(256, 64)
-
         self.final = nn.Sequential(
             nn.Upsample(scale_factor=2),
             nn.ZeroPad2d((1, 0, 1, 0)),
             nn.Conv2d(128, 3, 4, padding=1),
-            nn.Tanh(),
-        )
-
+            nn.Tanh(),)
     def forward(self, x):
         d1 = self.down1(x)
         d2 = self.down2(d1)
@@ -87,5 +75,4 @@ class network(nn.Module):
         u5 = self.up5(u4, d3)
         u6 = self.up6(u5, d2)
         u7 = self.up7(u6, d1)
-
         return self.final(u7)
