@@ -54,11 +54,7 @@ class network(nn.Module):
         self.up5 = UNetUp(1024, 256)
         self.up6 = UNetUp(512, 128)
         self.up7 = UNetUp(256, 64)
-        self.final = nn.Sequential(
-            nn.Upsample(scale_factor=2),
-            nn.ZeroPad2d((1, 0, 1, 0)),
-            nn.Conv2d(128, 3, 4, padding=1),
-            nn.Tanh(),)
+        self.final = nn.Sequential(nn.Upsample(scale_factor=2),nn.ZeroPad2d((1, 0, 1, 0)),nn.Conv2d(128, 3, 4, padding=1),nn.Tanh(),)
     def forward(self, x):
         d1 = self.down1(x)
         d2 = self.down2(d1)
